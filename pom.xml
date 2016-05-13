@@ -37,15 +37,11 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <build>
-            </build>
         </profile>
         <profile>
             <id>prod</id>
-            <build>
-            </build>
+            <activation>
+            </activation>
         </profile>
     </profiles>
-
-
 </project>
